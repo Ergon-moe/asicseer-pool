@@ -17,8 +17,8 @@ static bool ConvertBits(uint8_t **out, size_t *outlen, size_t frombits, size_t t
 
 /* Returns a 20-byte buffer containing the hash160 of the pk or script decoded
  * from a cashaddr string, or NULL on bad address string. The passed-in string
- * may be preceded by a prefix such as "bitcoincash:" or "bchtest:". If no prefix
- * is specified, "bitcoincash:" is assumed. Use the correct prefix to ensure
+ * may be preceded by a prefix such as "ergon:" or "bchtest:". If no prefix
+ * is specified, "ergon:" is assumed. Use the correct prefix to ensure
  * proper checksum validation.
  *
  * The returned buffer must be freed by the caller.

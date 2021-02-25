@@ -7,7 +7,7 @@ function clean_account($account){
 		$account = array_pop($split);
 	}
 
-        $account = str_replace("bitcoincash:","",$account);
+        $account = str_replace("ergon:","",$account);
         if(strlen($account) != "42"){ exit("bad address format"); }
         return $account;
 }

@@ -1817,7 +1817,7 @@ char *http_base64(const char *src)
 static const char *remove_any_cashaddr_prefix(const char *addr)
 {
     const char *ret = addr;
-    static const char *prefixes[] = {"bchtest:", "bitcoincash:"};
+    static const char *prefixes[] = {"bchtest:", "ergon:"};
     static const int N = sizeof(prefixes)/sizeof(*prefixes);
 
     for (int i = 0; i < N; ++i) {
