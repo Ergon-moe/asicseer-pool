@@ -2290,7 +2290,7 @@ double diff_from_nbits(const uchar *nbits)
     if (unlikely(powdiff < 0)) // testnet only
         powdiff = 0;
     diff32 = be32toh(*((uint32_t *)nbits)) & 0x00FFFFFF;
-    numerator = 0xFFFFULL << powdiff;
+    numerator = 0xFFFFFULL << powdiff;
     if (unlikely(diff32 == 0))
         // this should never happen, but prevent floating point exceptions
         diff32 = 1;
