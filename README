@@ -1,5 +1,8 @@
-ASICseer Pool
-Calin Culianu <calin.culianu@gmail.com>
+## ASICseer Pool - Ergon
+
+This is a fork of ASICseer Pool by Calin Culianu <calin.culianu@gmail.com> modified for compatibility with Ergon cryptocurrency.
+
+### Original README:
 
 Ultra low overhead massively scalable multi-process, multi-threaded modular
 Bitcoin Cash mining pool, proxy, passthrough, library and database interface in
